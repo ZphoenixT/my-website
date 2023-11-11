@@ -1,0 +1,22 @@
+@charset "ustf=8";
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border-style: none;
+  vertical-align: baseline;
+  font-family: inherit; 
+  font-family: "Nunito Sans", "Open Sans", Arial, sans-serif;
+  box-sizing: border-box;
+   
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-weight: 400;
+    line-height: 1.5;
+}

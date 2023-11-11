@@ -1,0 +1,140 @@
+@import "./newreset.css";
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border-style: none;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: min(100% - 30px, 1280px);
+    margin-inline: auto;
+}
+
+body{
+  background: #121222 url(./img/unsplash.jpg) center center / cover no-repeat fixed;
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+}
+
+.flexbox{
+    display: flex;
+}
+
+header{
+    background-color: #612ac820;
+    line-height: 60px;
+    overflow: hidden;
+}
+
+header div{
+    width: 40%;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    line-height: 60px;
+}
+
+nav{
+    width: 60%;
+    text-align: right;
+}
+
+nav ul{
+    font-size: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 60px;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out
+} 
+
+nav ul li a:hover{
+    background-color: #612ac820;
+    color: #602ac8;
+}
+
+main{
+    height: calc(100dvh - 60px - 60px);
+    overflow: hidden;
+  }
+
+  .mainbody{
+    color: #fff;
+    text-align: center;
+  }
+
+  .text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+  }
+
+  .text h2{
+    line-height: 1;
+  }
+
+  /*Button style*/
+  button{
+    width: 110px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #121222;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 0 15px 4px #ffffff90;
+    transition: 0.3s ease-in-out
+  }
+
+  .text button:hover{
+    background: #f7f8f990;
+  }  
+  /*--END--*/
+
+footer{
+    background-color: #7a7a7a20;
+    line-height: 60px;
+    overflow: hidden;
+}
+
+.pagefooter {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+/*Icons fade color*/
+ul i{
+    font-size: 20px;
+    padding-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+ul i:hover{
+    color: #602ac890;
+}
+/*--END--*/
