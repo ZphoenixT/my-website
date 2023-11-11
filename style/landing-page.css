@@ -21,6 +21,7 @@
 body{
   background: #121222 url(./img/unsplash.jpg) center center / cover no-repeat fixed;
   font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+  background-color: #1a1d28;
 }
 
 .flexbox{
@@ -74,10 +75,10 @@ nav ul li a:hover{
     color: #602ac8;
 }
 
-main{
+/* main{
     height: calc(100dvh - 60px - 60px);
     overflow: hidden;
-  }
+  } */
 
   .mainbody{
     color: #fff;
@@ -88,6 +89,9 @@ main{
     position: absolute;
     left: 50%;
     top: 50%;
+    margin: auto;
+    height: 200px;
+    width: 500px;
     transform: translate(-50%, -50%);
     font-size: 35px;
   }
@@ -115,6 +119,25 @@ main{
   }  
   /*--END--*/
 
+/*----------------------------- 
+        About me
+-------------------------------
+*/
+
+.about{
+    height: 600px;
+    width: 100%;
+    background-color: #ffffff60;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 1000px;
+    margin-bottom: 120px;
+}
+
+/* -------------------------
+            FOOTER
+----------------------------
+*/
 footer{
     background-color: #7a7a7a20;
     line-height: 60px;
