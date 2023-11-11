@@ -125,13 +125,38 @@ nav ul li a:hover{
 */
 
 .about{
-    height: 600px;
+    height: 450px;
     width: 100%;
-    background-color: #ffffff60;
+    background-color: #ffffff40;
     border-radius: 8px;
     margin: auto;
     margin-top: 1000px;
     margin-bottom: 120px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.about-title{
+    margin-top: 30px;
+}
+
+.Contact{
+    margin-top: 30px;
+}
+
+.contactinfo{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.aboutme {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 /* -------------------------
